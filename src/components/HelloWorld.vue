@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>
       {{JSON.stringify(tg.initData)}}
+      {{JSON.stringify(tg.initDataUnsafe)}}
     </p>
     <ul>
       <li v-for="(chat, key) in chats" :key="key">{{chat}}</li>

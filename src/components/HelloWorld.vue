@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      {{typeof tg != "undefined" ? tg : ''}}
+      {{typeof tg == "undefined" ? '' : tg.initData}}
     </p>
     <ul>
       <li v-for="(chat, key) in chats" :key="key">{{chat}}</li>

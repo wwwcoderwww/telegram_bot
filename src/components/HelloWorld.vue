@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      {{JSON.stringify(tg.InitData)}}
+      {{JSON.stringify(tg)}}
     </p>
     <ul>
       <li v-for="(chat, key) in chats" :key="key">{{chat}}</li>

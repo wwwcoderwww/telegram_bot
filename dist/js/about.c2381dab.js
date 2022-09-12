@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktelegram_app"]=self["webpackChunktelegram_app"]||[]).push([[443],{7381:function(a,e,n){n.r(e),n.d(e,{default:function(){return o}});var t=n(3396);const r={class:"about"},u=(0,t._)("h1",null,"This is an about page",-1),s=[u];function c(a,e){return(0,t.wg)(),(0,t.iD)("div",r,s)}var i=n(89);const l={},p=(0,i.Z)(l,[["render",c]]);var o=p}}]);
+//# sourceMappingURL=about.c2381dab.js.map

@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      {{JSON.stringify(tg)}}
+      {{JSON.stringify(tg.initData)}}
     </p>
     <ul>
       <li v-for="(chat, key) in chats" :key="key">{{chat}}</li>
@@ -23,7 +23,8 @@ export default {
   data() {
     return {
       chats: [],
-      text: ''
+      text: '',
+      tg: {}
     }
   },
   methods: {
@@ -34,8 +35,9 @@ export default {
   },
   mounted() {
     // props are exposed on `this`
-    let tg = window.Telegram.WebApp;
-    console.log(tg)
+    // let ss = "dsa";
+    this.tg = window.Telegram.WebApp;
+    console.log(this.tg)
   }
 }
 </script>
